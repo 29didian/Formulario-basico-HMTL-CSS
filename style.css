@@ -1,0 +1,74 @@
+h1{
+    color: aqua;
+
+
+}
+h2{ color: antiquewhite;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centra de izquierda a derecha */
+    align-items: center;     /* Centra de arriba a abajo (LA CLAVE) */
+    min-height: 100vh;       /* Obliga al body a medir el 100% de la pantalla */
+    margin: 0;
+    align-items: center;
+    background-image: url("imagenes/Fondo\ de\ pantalla.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.formulario{ 
+    position: absolute;
+    width: 280px;
+    height: 250px;
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    border-color: rgb(226, 209, 172);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 50px;
+}
+
+.boton1{
+    border-color: rgb(168, 184, 184);
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+
+}
+
+.boton2{
+    border-color: rgb(168, 184, 184);
+    border-radius: 8px;
+    box-shadow: 0 0 5px;
+}
+
+.password{
+
+    border-color: rgb(10, 6, 46);
+    border-width: 3px;
+    border-top: 0cap
+}
+
+.user{
+    border-color: rgb(10, 6, 46);
+    border-width: 3px;
+    border-top: 0cap
+}
+
+label{
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
